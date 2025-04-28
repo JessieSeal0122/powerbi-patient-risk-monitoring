@@ -89,6 +89,10 @@ CALCULATE(
     )
 )
 
+---
+
+### KPI Achievement Rate - All Divisions
+
 KPI_AchievementRate_Branch = 
 CALCULATE(
     DIVIDE(
