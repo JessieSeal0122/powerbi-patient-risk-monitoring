@@ -68,14 +68,14 @@ Example Dashboard Screenshot:
 The following DAX measures calculate the achievement rate of a key healthcare quality KPI.  
 Although both measures are based on the same core formula, different filter contexts are applied to enable simultaneous comparison between the overall performance and branch-level performance.
 
-### KPI Achievement Rate - All Divisions
+### KPI Achievement Rate - Overall
 
 ```DAX
-KPI_AchievementRate_All = 
+KPI_AchievementRate_Overall = 
 CALCULATE(
     DIVIDE(
-        SUM('fact_assessment'[PEOL_NUMBER]),
-        SUM('fact_assessment'[ASSE_NUMBER])
+        SUM('column_name'[numerator]),
+        SUM('fact_assessment'[denominator])
     ),
     FILTER(
         ALLEXCEPT(
@@ -89,21 +89,5 @@ CALCULATE(
     )
 )
 
----
-
-### KPI Achievement Rate - All Divisions
-
-KPI_AchievementRate_Branch = 
-CALCULATE(
-    DIVIDE(
-        SUM('fact_assessment'[PEOL_NUMBER]),
-        SUM('fact_assessment'[ASSE_NUMBER])
-    ),
-    FILTER(
-        'fact_assessment',
-        'fact_assessment'[Hospital_Zone_Order] <> "0.All"
-    )
-)
-
+Explanation:
 KPI_AchievementRate_All calculates the overall achievement rate across all branches combined.
-KPI_AchievementRate_Branch calculates the achievement rate for each individual branch separately.
