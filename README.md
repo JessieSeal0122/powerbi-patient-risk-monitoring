@@ -92,12 +92,12 @@ CALCULATE(
     FILTER(
         ALLEXCEPT(
             'fact_assessment',
-            'fact_assessment'[Interval],
-            'fact_assessment'[Date_Frequency],
+            'fact_assessment'[Time_Interval],
+            'fact_assessment'[Frequency],
             'fact_assessment'[Year],
             'fact_assessment'[Department]
         ),
-        'fact_assessment'[Hospital_Zone_Order] = "0.All"
+        'fact_assessment'[Hospital_Branch_Order] = "0.All"
     )
 )
 ```
@@ -111,12 +111,12 @@ KPI_AchievementRate_All calculates the overall achievement rate across all branc
 KPI_AchievementRate_Branch = 
 CALCULATE(
     DIVIDE(
-        SUM('fact_assessment'[PEOL_NUMBER]),
-        SUM('fact_assessment'[ASSE_NUMBER])
+        SUM('fact_assessment'[numerator]),
+        SUM('fact_assessment'[denominator])
     ),
     FILTER(
         'fact_assessment',
-        'fact_assessment'[Hospital_Zone_Order] <> "0.All"
+        'fact_assessment'[Hospital_Branch_Order] <> "0.All"
     )
 )
 ```
