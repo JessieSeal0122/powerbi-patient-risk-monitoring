@@ -88,6 +88,25 @@ CALCULATE(
         'fact_assessment'[Hospital_Zone_Order] = "0.All"
     )
 )
-
+```
 Explanation:
 KPI_AchievementRate_All calculates the overall achievement rate across all branches combined.
+
+ 
+### KPI Achievement Rate - Branch
+
+```DAX
+KPI_AchievementRate_Branch = 
+CALCULATE(
+    DIVIDE(
+        SUM('fact_assessment'[PEOL_NUMBER]),
+        SUM('fact_assessment'[ASSE_NUMBER])
+    ),
+    FILTER(
+        'fact_assessment',
+        'fact_assessment'[Hospital_Zone_Order] <> "0.All"
+    )
+)
+```
+Explanation:
+KPI_AchievementRate_Branch calculates the achievement rate for each individual branch separately.
