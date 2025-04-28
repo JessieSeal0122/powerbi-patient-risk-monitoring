@@ -1,13 +1,13 @@
 # powerbi-patient-risk-monitoring
 
-This project focuses on building a Power BI decision support system for monitoring key healthcare quality KPIs across multiple divisions.  
+This project focuses on building a Power BI decision support system for monitoring key healthcare quality KPIs across multiple divisions.
 It covers the full lifecycle from requirements gathering, Data Mart construction, ETL data cleaning, automated data refresh, dashboard development, and Row-Level Security (RLS) implementation.
 
 ---
 
 ## 📌 Project Overview
 
-To support healthcare quality improvement initiatives, we developed a dynamic KPI monitoring dashboard, replacing previous weekly and monthly static reports.  
+To support healthcare quality improvement initiatives, we developed a dynamic KPI monitoring dashboard, replacing previous weekly and monthly static reports.
 This new system enhances real-time visibility and operational efficiency for frontline healthcare teams and management.
 
 ---
@@ -59,12 +59,19 @@ This new system enhances real-time visibility and operational efficiency for fro
 
 Example ETL Flow Diagram:
 
-📄 `/doc/etl_process_flow.png` (uploaded separately)
+![ETLFlow](images/ETL_Flow.png)
 
-Example Dashboard Screenshot:
+## Main Dashboard (Restricted View)
 
-📄 `/images/kpi_dashboard_sample.png` (uploaded separately)
+![Dashboard](images/Dashboard_01.png)
 
+Simulated restricted view - for demonstration purposes only.
+
+## Main Dashboard (Authorized View)
+
+![Dashboard](images/Dashboard_02.png)
+
+This dashboard allows comparison between individual divisions and overall hospital performance through interactive filters.
 ---
 
 ## 📊 DAX Sample Calculations
@@ -119,3 +126,8 @@ KPI_AchievementRate_Branch calculates the achievement rate for each individual b
 All datasets used in this project were anonymized before processing.
 Sensitive patient information was removed to comply with privacy regulations.
 The dashboard only presents aggregated data for statistical and operational improvement purposes.
+
+## 📝 Additional Notes
+Selecting a nursing station allows users to compare station-specific performance against overall hospital performance.
+Selecting a clinical department enables department-level comparison within branches and the entire hospital.
+Clicking the X-axis labels in the bar chart filters the data dynamically by branch.
