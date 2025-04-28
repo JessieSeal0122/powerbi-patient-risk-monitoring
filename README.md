@@ -1,4 +1,4 @@
-# patient-risk-monitoring
+# powerbi-patient-risk-monitoring
 
 This project focuses on building a Power BI decision support system for monitoring key healthcare quality KPIs across multiple divisions.  
 It covers the full lifecycle from requirements gathering, Data Mart construction, ETL data cleaning, automated data refresh, dashboard development, and Row-Level Security (RLS) implementation.
