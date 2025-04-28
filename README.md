@@ -114,3 +114,8 @@ CALCULATE(
 ```
 Explanation:
 KPI_AchievementRate_Branch calculates the achievement rate for each individual branch separately.
+
+## 🔒 Notes on Privacy and Anonymization
+All datasets used in this project were anonymized before processing.
+Sensitive patient information was removed to comply with privacy regulations.
+The dashboard only presents aggregated data for statistical and operational improvement purposes.
