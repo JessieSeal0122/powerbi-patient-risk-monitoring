@@ -27,15 +27,19 @@ This new system enhances real-time visibility and operational efficiency for fro
   Developed Power BI dashboards featuring:
   - 7 key performance indicators (KPIs)
   - Trend analysis and division comparisons
-  - Interactive filters (year, quarter, unit, department)
+  - Interactive filters (year, quarter, department, nursing station)
 
 - **Row-Level Security (RLS)**  
   Implemented RLS for controlled data access based on user roles.
 
 - **Efficiency Gains**  
-  - Saved approximately 15 hours of manual work per month
+  - Reduced manual processing time from 15 hours/month to 3.67 hours/month
+  - Achieved approximately 75% improvement in data update efficiency
   - Improved data timeliness, security, and flexibility
-
+ 
+- **KPI Performance**  
+  - Achieved a 90% indicator achievement rate after system implementation, enabling better tracking and management visibility
+  - 
 ---
 
 ## 🧱 Tech Stack
