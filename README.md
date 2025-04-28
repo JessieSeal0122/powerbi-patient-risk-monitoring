@@ -63,15 +63,16 @@ Example ETL Flow Diagram:
 
 ## Main Dashboard (Restricted View)
 
-![Dashboard](images/Dashboard_01.png)
+![Dashboard](images/Dashboard_02.png)
 
 Simulated restricted view - for demonstration purposes only.
 
 ## Main Dashboard (Authorized View)
 
-![Dashboard](images/Dashboard_02.png)
+![Dashboard](images/Dashboard_01.png)
 
 This dashboard allows comparison between individual divisions and overall hospital performance through interactive filters.
+
 ---
 
 ## 📊 DAX Sample Calculations
