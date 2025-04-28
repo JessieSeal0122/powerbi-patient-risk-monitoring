@@ -39,7 +39,7 @@ This new system enhances real-time visibility and operational efficiency for fro
  
 - **KPI Performance**  
   - Achieved a 90% indicator achievement rate after system implementation, enabling better tracking and management visibility
-  - 
+    
 ---
 
 ## 🧱 Tech Stack
