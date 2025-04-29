@@ -1,6 +1,6 @@
 # powerbi-patient-risk-monitoring
 
-"Built a Power BI KPI monitoring system that improved reporting efficiency by 75% and achieved 90% KPI attainment."
+"A Power BI KPI monitoring system that improved reporting efficiency by 75% and achieved 90% KPI attainment."
 
 This project focuses on building a Power BI decision support system for monitoring key healthcare quality KPIs across multiple divisions.
 It covers the full lifecycle from requirements gathering, Data Mart construction, ETL data cleaning, automated data refresh, dashboard development, and Row-Level Security (RLS) implementation.
