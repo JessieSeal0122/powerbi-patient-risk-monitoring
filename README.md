@@ -77,6 +77,11 @@ Simulated restricted view - for demonstration purposes only.
 
 This dashboard allows comparison between individual divisions and overall hospital performance through interactive filters.
 
+## 📝 Additional Notes
+Selecting a nursing station allows users to compare station-specific performance against overall hospital performance.  
+Selecting a clinical department enables department-level comparison within branches and the entire hospital.  
+Clicking the X-axis labels in the bar chart filters the data dynamically by branch.  
+
 ---
 
 ## 📊 DAX Sample Calculations
@@ -131,8 +136,3 @@ KPI_AchievementRate_Branch calculates the achievement rate for each individual b
 All datasets used in this project were anonymized before processing.
 Sensitive patient information was removed to comply with privacy regulations.
 The dashboard only presents aggregated data for statistical and operational improvement purposes.
-
-## 📝 Additional Notes
-Selecting a nursing station allows users to compare station-specific performance against overall hospital performance.
-Selecting a clinical department enables department-level comparison within branches and the entire hospital.
-Clicking the X-axis labels in the bar chart filters the data dynamically by branch.
