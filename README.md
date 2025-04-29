@@ -77,10 +77,16 @@ Simulated restricted view - for demonstration purposes only.
 
 This dashboard allows comparison between individual divisions and overall hospital performance through interactive filters.
 
+## Main Dashboard (Branch Selected)
+
+![Dashboard](images/Dashboard_03.png)
+
+Shows the KPI trend lines for both the selected branch and overall hospital simultaneously, enabling direct visual comparison.
+(Tip: By selecting a branch from the left panel or clicking the X-axis labels in the bar chart, users can instantly filter and compare that branch's KPI achievement against the overall performance.)
+
 ## 📝 Additional Notes
 Selecting a nursing station allows users to compare station-specific performance against overall hospital performance.  
 Selecting a clinical department enables department-level comparison within branches and the entire hospital.  
-Clicking the X-axis labels in the bar chart filters the data dynamically by branch.  
 
 ---
 
