@@ -29,7 +29,7 @@ This new system enhances real-time visibility and operational efficiency for fro
   Developed Power BI dashboards featuring:
   - 7 key performance indicators (KPIs)
   - Trend analysis and division comparisons
-  - Interactive filters (year, quarter, department, nursing station)
+  - Interactive filters (year, quarter, clinical department, nursing station)
 
 - **Row-Level Security (RLS)**  
   Implemented RLS for controlled data access based on user roles.
