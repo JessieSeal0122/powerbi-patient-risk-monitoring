@@ -61,19 +61,19 @@ This new system enhances real-time visibility and operational efficiency for fro
 
 Example ETL Flow Diagram:
 
-![ETLFlow](images/ETL_Flow.png)
+![ETLFlow](./images/ETL_Flow.png)
 
 ETL flow diagram showing multi-source joins and transformations to build a unified Data Mart.
 
 ## Main Dashboard (Restricted View)
 
-![Dashboard](images/Dashboard_02.png)
+![Dashboard](./images/Dashboard_02.png)
 
 Simulated restricted view - for demonstration purposes only.
 
 ## Main Dashboard (Authorized View)
 
-![Dashboard](images/Dashboard_01.png)
+![Dashboard](./images/Dashboard_01.png)
 
 This dashboard allows comparison between individual divisions and overall hospital performance through interactive filters.
 
